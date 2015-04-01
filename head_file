@@ -1,0 +1,29 @@
+//
+//  Class.h
+//  graduate_design
+//
+//  Created by 梁甲琛 on 3/25/15.
+//  Copyright (c) 2015 Liang Jiachen. All rights reserved.
+//
+
+#ifndef graduate_design_Class_h
+#define graduate_design_Class_h
+
+
+#endif
+typedef   struct Vertex{
+    double x;
+    double y;
+    double z;
+    Vertex *x_same;
+    Vertex *y_same;
+    Vertex *next;
+}Vertex;
+typedef struct {
+    double x;
+    double y;
+    double z;
+    Vertex *vertex1;
+    Vertex *vertex2;
+    Vertex *vertex3;
+}Facet;
